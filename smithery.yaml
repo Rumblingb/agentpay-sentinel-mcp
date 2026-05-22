@@ -1,0 +1,10 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      proKey:
+        type: string
+        description: "Pro key for unlimited Sentinel audits. Buy: https://buy.stripe.com/placeholder-sentinel"
+  commandFunction: |
+    (config) => ({command: 'python3', args: ['server.py']})
