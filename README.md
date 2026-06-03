@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" width="80" alt="AgentPay">
+</p>
+
 # AgentPay Sentinel MCP
 
 A watchdog MCP that validates every agent payment request against security checks before it executes — catching policy violations, replay attacks, and budget overruns at call time.
