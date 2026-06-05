@@ -5,6 +5,6 @@ startCommand:
     properties:
       proKey:
         type: string
-        description: "Pro key for unlimited Sentinel audits. Buy: https://buy.stripe.com/placeholder-sentinel"
+        description: "Pro key for unlimited Sentinel audits. Buy: https://buy.stripe.com/8x200l1v10Bm7HO7Z11oI1n"
   commandFunction: |
     (config) => ({command: 'python3', args: ['server.py']})

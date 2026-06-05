@@ -1,0 +1,14 @@
+version: 1
+name: agentpay-sentinel-mcp
+description: >-
+  A watchdog MCP server that validates agent payment requests against 9 security checks including token integrity, budget enforcement, and replay attack detection.
+runtime: python
+entry: server.py
+build:
+  install: pip install mcp
+  pythonPath: C:/Python312/python.exe
+startCommand:
+  type: stdio
+  command: C:/Python312/python.exe
+  args:
+    - server.py

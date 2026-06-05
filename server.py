@@ -13,7 +13,7 @@ from datetime import datetime
 
 PRODUCT_NAME = "AgentPay Sentinel MCP"
 VERSION = "0.2.0"
-STRIPE_LINK = "https://buy.stripe.com/5kQ3cxflRabW9PW1AD1oI01"
+STRIPE_LINK = "https://buy.stripe.com/8x200l1v10Bm7HO7Z11oI1n"
 
 # ── Persistent storage for replay + revocation state ──
 
