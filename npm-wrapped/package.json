@@ -1,0 +1,11 @@
+{
+  "name": "agentpay-sentinel-mcp",
+  "version": "1.0.0",
+  "description": "Security guardrails for AI agent payments",
+  "bin": {"sentinel-mcp": "cli.js"},
+  "mcpName": "io.github.rumblingb/agentpay-sentinel-mcp",
+  "keywords": ["mcp", "agentpay", "sentinel", "ai"],
+  "license": "MIT",
+  "repository": {"type": "git", "url": "https://github.com/rumblingb/agentpay-sentinel-mcp"},
+  "engines": {"node": ">=18.0.0"}
+}
